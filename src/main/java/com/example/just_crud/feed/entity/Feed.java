@@ -1,4 +1,4 @@
-package com.example.crud_practice.feed.entity;
+package com.example.just_crud.feed.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
