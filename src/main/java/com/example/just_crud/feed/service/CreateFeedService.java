@@ -1,8 +1,8 @@
-package com.example.crud_practice.feed.service;
+package com.example.just_crud.feed.service;
 
-import com.example.crud_practice.feed.dto.request.FeedRequest;
-import com.example.crud_practice.feed.entity.Feed;
-import com.example.crud_practice.feed.repository.FeedRepository;
+import com.example.just_crud.feed.dto.request.FeedRequest;
+import com.example.just_crud.feed.entity.Feed;
+import com.example.just_crud.feed.repository.FeedRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
