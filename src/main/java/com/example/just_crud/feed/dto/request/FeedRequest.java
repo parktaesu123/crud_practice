@@ -1,4 +1,4 @@
-package com.example.crud_practice.feed.dto.request;
+package com.example.just_crud.feed.dto.request;
 
 import lombok.Getter;
 
