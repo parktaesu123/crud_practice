@@ -1,6 +1,6 @@
-package com.example.crud_practice.board.repository;
+package com.example.just_crud.board.repository;
 
-import com.example.crud_practice.board.entity.Board;
+import com.example.just_crud.board.entity.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
