@@ -1,4 +1,4 @@
-package com.example.crud_practice.board.dto.response;
+package com.example.just_crud.board.dto.response;
 
 import lombok.Getter;
 
