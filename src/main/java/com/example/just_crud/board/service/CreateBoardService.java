@@ -1,8 +1,8 @@
-package com.example.crud_practice.board.service;
+package com.example.just_crud.board.service;
 
-import com.example.crud_practice.board.dto.request.BoardRequest;
-import com.example.crud_practice.board.entity.Board;
-import com.example.crud_practice.board.repository.BoardRepository;
+import com.example.just_crud.board.dto.request.BoardRequest;
+import com.example.just_crud.board.entity.Board;
+import com.example.just_crud.board.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
