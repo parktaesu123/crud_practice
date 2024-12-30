@@ -14,12 +14,11 @@ public class QueryAllFeedService {
     private final FeedRepository feedRepository;
 
     public List<FeedResponse> queryAllFeed() {
-        List<FeedResponse> feedResponses = feedRepository.findAll()
+        return feedRepository.findAll()
                 .stream()
                 .map(feed -> new FeedResponse(feed))
                 .collect(Collectors.toList());
 
-        return feedResponses;
     }
 
 }
