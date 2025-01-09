@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class UpdateCommentService {
     private final CommentRepository commentRepository;
 
+
     @Transactional
     public void updateComment(CommentRequest request, Long id) {
         Comment comment = commentRepository.findById(id)
