@@ -11,12 +11,11 @@ import org.springframework.stereotype.Service;
 public class CreateFeedService {
     private final FeedRepository feedRepository;
     public void createFeed(FeedRequest request) {
-        Feed feed = Feed.builder()
+        feedRepository.save(Feed.builder()
                 .title(request.getTitle())
                 .content(request.getContent())
                 .userName(request.getUserName())
-                .build();
-
-        feedRepository.save(feed);
+                .build()
+        );
     }
 }
